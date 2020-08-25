@@ -1,0 +1,32 @@
+section.main-content {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+
+  background-image: url('../../assets/images/main.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+}
+
+section.main-content .main-text-container {
+  width: 35vw;
+  margin-left: 10vw;
+}
+
+section.main-content .main-text-container h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: var(--color-title-dark);
+  margin-bottom: 40px;
+}
+
+section.main-content .main-text-container p {
+  font-size: 1.5rem;
+  color: var(--color-text-dark);
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+  font-weight: 100;
+}
+

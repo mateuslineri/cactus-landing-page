@@ -1,0 +1,44 @@
+header.page-header {
+  height: 10vh;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo-container img {
+  height: 30px;
+}
+
+header .nav-container ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+header .nav-container ul li {
+  padding: 20px;
+  list-style: none;
+}
+
+header .nav-container ul li a {
+  text-decoration: none;
+  color: var(--color-text-dark);
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+header .nav-container ul li a:hover {
+  color: var(--color-title-dark);
+}
+
+header .nav-container ul li a#button-buy {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: filter 0.3s;
+}
+
+header .nav-container ul li a#button-buy:hover {
+  filter: brightness(1.3);
+}
